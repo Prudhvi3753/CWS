@@ -2,26 +2,30 @@
 <html lang="en">
 <head>
     <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to my Portfolio</h1><br>
-    <a href="about.html"><button>About</button></a>
-    <a href="skills.html"><button>Skills</button></a>
-    <a href="projects.html"><button>Projects</button></a>
-    <a href="contact.html"><button>Contact</button></a><br>
+        <div><h1 id="my">Welcome to my Portfolio</h1><br>
+    <a href="about.html"><button  class="button">About</button></a>
+    <a href="skills.html"><button class="button">Skills</button></a>
+    <a href="projects.html"><button class="button">Projects</button></a>
+    <a href="contact.html"><button class="button">Contact</button></a><br>
+    </div>
     
     </header>
+    
 
     <main>
         <section id="About">
             <h1>CH.Prudhvi SIMATS</h1><br>
-    <img src="prudhvi.png.jpg" alt="prudhvi">
+    <img src="prudhvi.png.jpg" height="100" alt="prudhvi">
     <br><p>I am pasinate web developer with a focus on front-end technoligies.<br><br>I
          am currently pursuing my B-Tech in SIMATS Engineering college <br><br> I have 
          learnt Web Development  from mentiby.<br><br>you can <a href="course.html">
             Click</a> here to check here What I have Learnt in HTML</p><br>
         </section>
+        
         <section id="Skills">
             <h1>My Skills</h1><br>
             <ol>
@@ -30,6 +34,7 @@
                 <li>HTML</li>
             </ol><br>
         </section>
+        
         <section id="Projects">
             <h1>My Projects</h1><br>
             <table border="3">
@@ -76,12 +81,12 @@
                 <lable for="Reading">Reading</lable><br>
                 <lable>Bio(up to 200 characters):</lable>
                 <textarea>fill the biography</textarea><br>
-                <button type="Submit">Submit</button>
-                <button type="reset">Reset</button>
+                <button type="submit" class="submit">Submit</button>
+                <button type="reset" class="reset">Reset</button>
                 </form>
         </section>
     </main>
-    
+    <button  class="fixed">Top</button>
     <footer>
         <p>@ 2024 copyrights act</p>
     </footer>
